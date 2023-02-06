@@ -14,20 +14,20 @@ terraform {
 provider "site24x7" {
   // (Required) The client ID will be looked up in the SITE24X7_OAUTH2_CLIENT_ID
   // environment variable if the attribute is empty or omitted.
-  oauth2_client_id = "1000.SZ697DBVCTFOGG69IBKCYVGR8XR1SO"
+  oauth2_client_id = "1000.WUKOBLFTLZ844LNLB8QA42V28LUWXI"
 
   // (Required) The client secret will be looked up in the SITE24X7_OAUTH2_CLIENT_SECRET
   // environment variable if the attribute is empty or omitted.
-  oauth2_client_secret = "e5bb38dac07eece11b5948373d83683c633e709d58"
+  oauth2_client_secret = "0d4bdea98cddc1ee94ebf866822dd2e82d202c44b9"
 
   // (Required) The refresh token will be looked up in the SITE24X7_OAUTH2_REFRESH_TOKEN
   // environment variable if the attribute is empty or omitted.
-  oauth2_refresh_token = "1000.24e9ade2d78a6183cbea69f1c6bb45a6.81940d14e0d5b1e8c59c6a9e9e9f0834"
+  oauth2_refresh_token = "1000.20803aeb3607165b02d13538b7b607b4.8b20c5985336fac650211778e2266014"
 
   // (Optional) The access token will be looked up in the SITE24X7_OAUTH2_ACCESS_TOKEN
   // environment variable if the attribute is empty or omitted. You need not configure oauth2_access_token
   // when oauth2_refresh_token is set.
-  oauth2_access_token = "1000.95e94c4248fc2f97109eddfc4e554da8.7b5f3cf416892a5d9bdb00104e65c5ef"
+  oauth2_access_token = "1000.7ef6ba4db40bf7a1981b320b2e937af5.dbacd663fc3ba9c66fbf582ab0de4f0c"
 
 	// (Optional) oauth2_access_token expiry in seconds. Specify access_token_expiry when oauth2_access_token is configured.
   access_token_expiry = "3600"
